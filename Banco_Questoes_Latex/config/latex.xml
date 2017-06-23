@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScintillaNET>
+  <Language Name="Latex">
+    <AutoComplete FillUpCharacters="\" SingleLineAccept="True" IsCaseSensitive="False">
+      <List>
+        frac{}{} item begin{}
+      </List>
+    </AutoComplete>
+
+    <Indentation TabWidth="4" SmartIndentType="cpp" />
+
+    <Lexer LexerName="Latex" LineCommentPrefix="%%" StreamCommentPrefix="/* " StreamCommentSuffix=" */" >
+      <Keywords List="0" Inherit="False">
+        frac{}{} item
+      </Keywords>
+      <Keywords List="1" Inherit="False">
+        begin{}
+      </Keywords>
+    </Lexer>
+  </Language>
+</ScintillaNET>
