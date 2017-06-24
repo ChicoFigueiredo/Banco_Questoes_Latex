@@ -18,7 +18,7 @@ namespace Banco_Questoes_Latex
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Testes());
+            Application.Run(new Testes2());
         }
 
         private static System.Threading.Timer Vigia = new System.Threading.Timer(VigiaTimerCallback, 5, 0, 300000);

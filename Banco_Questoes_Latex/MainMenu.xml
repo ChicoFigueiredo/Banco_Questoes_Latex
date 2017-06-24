@@ -1,0 +1,10 @@
+﻿<root>
+
+	<TopLevelMenu Name="mnuFormat" Text="&amp;Formatar">
+		<MenuItem Name="mnuFormatBold" Text="&amp;Negrito" OnClick="_Inserir" />
+	</TopLevelMenu>
+
+  <TopLevelMenu Name="mnuMatemática" Text="&amp;Matemática">
+		<MenuItem Name="mnuMatemáticaFrac" Text="\&amp;Fração"  OnClick="_Inserir" />
+	</TopLevelMenu>
+</root>

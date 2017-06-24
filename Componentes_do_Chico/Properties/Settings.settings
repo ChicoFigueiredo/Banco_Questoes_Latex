@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Componentes_do_Chico.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MikTex_Bin_Folder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\Projetos\MikTex\texmfs\install\miktex\bin</Value>
+    </Setting>
+    <Setting Name="Temp_Folder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">temp</Value>
+    </Setting>
+    <Setting Name="Header_Padrao_LATEX" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\documentclass[preview]{standalone}
+\usepackage{ulem}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage[portuguese]{babel}
+\usepackage{pstricks-add}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{enumerate}
+\usepackage[left=0cm,top=0cm,right=0cm,nohead,nofoot]{geometry}
+\geometry{
+paperwidth=#PW#cm,
+margin=0.5cm
+}
+\usepackage[light,math]{iwona}
+\begin{document} 
+</Value>
+    </Setting>
+    <Setting Name="Footer_Padrao_LATEX" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\end{document}</Value>
+    </Setting>
+    <Setting Name="Config_Reservade_Words" Type="System.String" Scope="User">
+      <Value Profile="(Default)">config\latex_reservade.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

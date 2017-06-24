@@ -47,6 +47,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Banco_Questoes_Latex.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="ScintillaNET">
       <HintPath>dll\ScintillaNET.dll</HintPath>
@@ -64,7 +67,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Latex.cs" />
     <Compile Include="Menu_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,17 +75,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScintillaLatex.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ScintillaLatex.Designer.cs">
-      <DependentUpon>ScintillaLatex.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Testes.cs">
+    <Compile Include="Testes2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Testes.Designer.cs">
-      <DependentUpon>Testes.cs</DependentUpon>
+    <Compile Include="Testes2.Designer.cs">
+      <DependentUpon>Testes2.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
@@ -97,11 +93,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ScintillaLatex.resx">
-      <DependentUpon>ScintillaLatex.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Testes.resx">
-      <DependentUpon>Testes.cs</DependentUpon>
+    <EmbeddedResource Include="Testes2.resx">
+      <DependentUpon>Testes2.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -126,14 +119,22 @@
     <Content Include="config\latex_reservade.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="MainMenu.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Componentes_do_Chico\Componentes_do_Chico.csproj">
+      <Project>{242ac7dd-0fb9-4432-8380-94d61923a393}</Project>
+      <Name>Componentes_do_Chico</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

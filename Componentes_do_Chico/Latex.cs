@@ -9,9 +9,9 @@ using System.Drawing;
 using System.Security.Cryptography;
 using System.Drawing.Imaging;
 
-namespace Banco_Questoes_Latex
+namespace Componentes_do_Chico
 {
-    class Latex
+    public class Latex
     {
         private string caminho_latex = Properties.Settings.Default.MikTex_Bin_Folder;
         private string caminho_Temp = Properties.Settings.Default.Temp_Folder;

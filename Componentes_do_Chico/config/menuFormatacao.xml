@@ -1,0 +1,108 @@
+﻿<root>
+
+	<TopLevelMenu Name="mnuFormat" Text="&amp;Formatar">
+    <MenuItem Name="mnuFormatNegrito" Text="&amp;Negrito" Tag="\textbf{};-1" Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuFormatItalico" Text="&amp;Italico" Tag="\textit{};-1" Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuFormatSublinhado" Text="&amp;Sublinhado" Tag="\underline{};-1" Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuFormatEnfatizar" Text="&amp;Enfatizar" Tag="\emph{};-1" Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuFormatCapitular" Text="&amp;Capitular" Tag="\textsc{};-1" Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuFormatNormal" Text="&amp;Normal" Tag="\textrm{};-1" Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuFormatSanSerif" Text="SanSeri&amp;f" Tag="\textsf{};-1" Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuFormatSlanted" Text="S&amp;lanted" Tag="\textsl{};-1" Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuFormatTypeWriter" Text="&amp;TypeWriter" Tag="\texttt{};-1" Click="Inserir_Item_Texto_do_Menu" />
+  </TopLevelMenu>
+
+  <TopLevelMenu Name="mnuMatemática" Text="&amp;Matemática">
+    <MenuItem Name="mnuMatemáticaFrac" Text="&amp;Fração" Tag="\frac{}{};-3"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuMatemáticaRaiz" Text="&amp;Raiz" Tag="\sqrt[]{];-1"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuMatemáticaIntegral" Text="&amp;Integral" Tag="\int;0"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuMatemáticaIntegralDefinida" Text="Integral &amp;Definida" Tag="\int^{}_{};-4"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuMatemáticaIntegral" Text="Integral &amp;Circular" Tag="\oint;0"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuMatemáticaIntegralDefinida" Text="Integral Circular Definida" Tag="\oint^{}_{};-4"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuMatemáticaSoma" Text="&amp;Somatório" Tag="\sum;0"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuMatemáticaSomalDefinida" Text="Somatório Definida" Tag="\sum^{}_{};-4"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuMatemáticaProdutorio" Text="&amp;Produtório" Tag="\prod;0"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuMatemáticaProdutorioDefinida" Text="Produtório Definida" Tag="\prod^{}_{};-4"  Click="Inserir_Item_Texto_do_Menu" />
+  </TopLevelMenu>
+
+
+  <TopLevelMenu Name="mnuGrego" Text="&amp;Grego">
+      <MenuItem Name="mnuGregoMinalpha     " Text="&amp;alpha α    " Tag="\alpha;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinbeta      " Text="&amp;beta β     " Tag="\beta;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMingamma     " Text="&amp;gamma γ    " Tag="\gamma;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMindelta     " Text="&amp;delta δ    " Tag="\delta;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinepsilon   " Text="&amp;epsilon ε  " Tag="\epsilon;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinvarepsilon" Text="epsilon2 ε"        Tag="\varepsilon;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinzeta      " Text="&amp;zeta ζ     " Tag="\zeta;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMineta       " Text="&amp;eta η      " Tag="\eta;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMintheta     " Text="&amp;theta θ    " Tag="\theta;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinvartheta  " Text="theta2 θ"          Tag="\vartheta;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMingamma     " Text="&amp;gamma     " Tag="\gamma;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinkappa     " Text="&amp;kappa     " Tag="\kappa;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinlambda    " Text="&amp;lambda    " Tag="\lambda;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinmu        " Text="&amp;mu        " Tag="\mu;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinnu        " Text="&amp;nu        " Tag="\nu;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinxi        " Text="&amp;xi        " Tag="\xi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinpi        " Text="&amp;pi        " Tag="\pi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinvarpi     " Text="pi2     "        Tag="\varpi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinrho       " Text="&amp;rho       " Tag="\rho;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinvarrho    " Text="rho2    "        Tag="\varrho;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinsigma     " Text="&amp;sigma     " Tag="\sigma;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinvarsigma  " Text="sigma2  "        Tag="\varsigma;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMintau       " Text="&amp;tau       " Tag="\tau;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinupsilon   " Text="&amp;upsilon   " Tag="\upsilon;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinphi       " Text="&amp;phi       " Tag="\phi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinvarphi    " Text="phi2    "        Tag="\varphi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinchi       " Text="&amp;chi       " Tag="\chi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinpsi       " Text="&amp;psi       " Tag="\psi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinomega     " Text="&amp;omega     " Tag="\omega;0"  Click="Inserir_Item_Texto_do_Menu" />
+    
+    <MenuItem Name="mnuGregoMai" Text="&amp;2 -> Maiúscula" Tag="" >
+      <MenuItem Name="mnuGregoMinalpha     " Text="&amp;alpha     " Tag="\Alpha;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinbeta      " Text="&amp;beta      " Tag="\Beta;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMingamma     " Text="&amp;gamma     " Tag="\Gamma;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMindelta     " Text="&amp;delta     " Tag="\Delta;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinepsilon   " Text="&amp;epsilon   " Tag="\Epsilon;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinvarepsilon" Text="&amp;varepsilon" Tag="\Varepsilon;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinzeta      " Text="&amp;zeta      " Tag="\Zeta;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMineta       " Text="&amp;eta       " Tag="\Eta;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMintheta     " Text="&amp;theta     " Tag="\Theta;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinvartheta  " Text="&amp;vartheta  " Tag="\Vartheta;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMingamma     " Text="&amp;gamma     " Tag="\Gamma;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinkappa     " Text="&amp;kappa     " Tag="\Kappa;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinlambda    " Text="&amp;lambda    " Tag="\Lambda;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinmu        " Text="&amp;mu        " Tag="\Mu;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinnu        " Text="&amp;nu        " Tag="\Nu;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinxi        " Text="&amp;xi        " Tag="\Xi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinpi        " Text="&amp;pi        " Tag="\Pi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinvarpi     " Text="&amp;varpi     " Tag="\Varpi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinrho       " Text="&amp;rho       " Tag="\Rho;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinvarrho    " Text="&amp;varrho    " Tag="\Varrho;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinsigma     " Text="&amp;sigma     " Tag="\Sigma;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinvarsigma  " Text="&amp;varsigma  " Tag="\Varsigma;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMintau       " Text="&amp;tau       " Tag="\Tau;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinupsilon   " Text="&amp;upsilon   " Tag="\Upsilon;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinphi       " Text="&amp;phi       " Tag="\Phi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinvarphi    " Text="&amp;varphi    " Tag="\Varphi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinchi       " Text="&amp;chi       " Tag="\Chi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinpsi       " Text="&amp;psi       " Tag="\Psi;0"  Click="Inserir_Item_Texto_do_Menu" />
+      <MenuItem Name="mnuGregoMinomega     " Text="&amp;omega     " Tag="\Omega;0"  Click="Inserir_Item_Texto_do_Menu" />
+    </MenuItem>
+  </TopLevelMenu>
+
+  <TopLevelMenu Name="mnuSeções" Text="&amp;Seções" Tag="">
+    <MenuItem Name="mnuSeçõesItens" Text="&amp;Itens" Tag="\\n\begin{itemize}\\n   \item \\n\end{itemize}\\n;-15"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuSeçõesNumerado" Text="&amp;Numerado" Tag="\\n\begin{enumerate}\\n   \item \\n\end{enumerate}\\n;-17"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuSeçõesEstilo" Text="Itens &amp;Estilizados" Tag="\\n\begin{enumerate}[I]\\n   \item \\n\end{enumerate}\\n;-17"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuSeçõesCitação" Text="&amp;Citação" Tag="\\n\begin{quote}[I]\\n\\n\end{quote}\\n;-13"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuSeçõesCitaçãoLonga" Text="Citação &amp;Longa" Tag="\\n\begin{quotation}[I]\\n\\n\end{quotation}\\n;-16"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuSeçõesVerso" Text="&amp;Verso" Tag="\\n\begin{verse}[I]\\n\\n\end{verse}\\n;-13"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuSeçõesComentários" Text="&amp;Comentário" Tag="\\n\begin{comment}\\n\\n\end{comment}\\n;-15"  Click="Inserir_Item_Texto_do_Menu" />
+    <MenuItem Name="mnuSeçõesPagina" Text="&amp;Página" >
+      <MenuItem Name="mnuSeçõesPaginaNotaDeRodape" Text="&amp;Nota de Rodapé" Tag="\footnote{};-1"  Click="Inserir_Item_Texto_do_Menu" />
+    </MenuItem>
+  </TopLevelMenu>
+  
+  
+  
+</root>
